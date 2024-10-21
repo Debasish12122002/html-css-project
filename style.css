@@ -1,0 +1,29 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    background: #6191b0 ; font-family: Calibri; padding-left: 15px; padding-right: 15px;
+}
+.navdiv{
+    display: flex; justify-content: space-between; align-items: center;
+}
+.logo{
+    padding-top: 10px;padding-bottom: 10px;
+}
+.in_navi{
+    display: inline-block; justify-content: space-between;list-style: none;
+}
+.in_navi a{
+    color: white;font-weight: bold;font-size: 20px;margin-right: 25px;
+}
+.body{
+    background-image: url('bgcorporateclimb.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: drop-shadow(15px);
+}
+.herosec{
+    text-align: center;
+}
