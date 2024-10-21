@@ -6,6 +6,8 @@
     font-family: Calibri; 
     padding-left: 15px; 
     padding-right: 15px;
+    width: 100%;
+    position: relative;
 }
 .navdiv{
     display: flex; 
@@ -34,7 +36,11 @@
     background-size: cover;
     background-attachment: fixed;
     filter: blur();
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
+
 .herosec{
     text-align: center;
     color: black;
@@ -53,4 +59,54 @@
 
 .cta-button:hover {
     background-color: #45ec9e; 
+}
+
+.footer {
+    background-color: #333;   
+    color: white;            
+    padding: 30px 0;         
+    text-align: center; 
+    width: 100%;     
+    position: fixed;  
+    margin-top: 100px;
+}
+
+.footer-content {
+    display: flex;            
+    justify-content: space-around; 
+    flex-wrap: wrap;       
+    max-width: 1600px;
+    margin: 0 auto;            
+}
+
+.footer-section {
+    margin: 10px 0;           
+}
+
+.footer-section h4 {
+    /*margin-bottom: 10px;    */   
+    font-size: 15px;
+    text-transform: uppercase; 
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.social-link {
+    display: block;            
+    color: white;              
+    text-decoration: none;     
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #007bff;       
+}
+
+.footer-bottom {
+    border-top: 1px solid #555; 
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 14px;
 }
